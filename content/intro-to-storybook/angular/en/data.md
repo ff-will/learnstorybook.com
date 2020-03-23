@@ -18,7 +18,8 @@ This example uses [ngxs](https://ngxs.gitbook.io/ngxs/), a library that embraces
 First install ngxs with:
 
 ```bash
-npm install @ngxs/store @ngxs/logger-plugin @ngxs/devtools-plugin
+npm install @ngxs/store 
+npm install -D @ngxs/logger-plugin @ngxs/devtools-plugin
 ```
 
 Then we'll construct a straightforward store that responds to actions that change the state of tasks, in a file called `src/app/state/task.state.ts` (intentionally kept simple):
